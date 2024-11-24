@@ -1,0 +1,98 @@
+.container {
+    width: 500px !important;
+}
+
+.search-bar input {
+    padding-left: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin-right: 10px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+}
+
+.search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.search-bar .search-btn {
+    width: 50px;
+    height: 50px;
+    padding: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    box-shadow: #fff;
+    background-color: #fff !important;
+}
+
+.weather-icon{
+    color: #fff;
+}
+.card {
+    padding-top: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.clearIcon {
+    width: 100px;
+
+}
+
+.temparature {
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location {
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.condition{
+    color: #fff;
+    font-size: 30px;
+    
+}
+.weatherData {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weatherData div {
+    text-align: center;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px); 
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.weatherData img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.weatherData p {
+    font-size: 18px;
+    margin: 5px 0 0;
+    font-weight: bold;
+}
+
+.weatherData span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
